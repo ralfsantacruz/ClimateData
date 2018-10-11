@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title>Max Temperature</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+      <!-- Bring in our bootstrap stylesheet -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+
+</head>
+
+<body id="background">
+
+  <!-- Navbar -->
+  <nav class="navbar navbar-dark flex-column flex-md-row bg-dark">
+      <a class="navbar-brand" href="landing.html">Home</a>
+      <ul class="nav justify-content-end">
+          <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">Plots</a>
+              <div class="dropdown-menu">
+                <a class="dropdown-item" href="temperature.html">Temperature</a>
+                <a class="dropdown-item" href="humidity.html">Humidity</a>
+                <a class="dropdown-item" href="cloudiness.html">Cloudiness</a>
+                <a class="dropdown-item" href="windspeed.html">Windspeed</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="data.html">Data</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="comparison.html">Comparison</a>
+          </li>
+        </ul>
+      </nav>
+
+
+      <!--Jumbotron for the introduction of the webpage  -->
+      <div class="jumbotron jumbotron-fluid jumbotronbg">
+          <div class="container" id="aligncenter">
+            <h1 class="display-4 text-light">Latitude and Max Temperature</h1>
+            <p class="lead text-light">The seasons and earth's tilt are clearly represented when we look at latitude and temperature.
+            </p>
+          </div>
+        </div>
+
+      <div class="row">
+        <div class="col-md-1"></div>
+        <div class="col-md-5 bg-light" id="aligncenter">
+          <h5  id="margins">Figure</h5>
+          <a href="#"><img src="https://preview.ibb.co/bJ0dop/Fig1.png" alt="Fig1" border="0"></a>
+          <p id="margins">Temperatures are higher in the southern hemisphere, and lower in the northern hemisphere.</p>
+        </div>
+        <div class="col-md-1"></div>
+        <div class="col-md-4 bg-light">
+            <h5 id="margins">Summary</h5>
+            <p id="margins">The maximum temperature for any given place will depend largely on the time of the year and its geographic location. We can clearly see the effects of winter in the Northern Hemisphere and the effects of summer in the Southern Hemisphere. It's interesting to note that the pattern of the data points also resemble the tilt of the earth as the data points that have lower temperatures would be facing away from the sun if the sun was positioned directly above the graph.</p>
+          <p id="margins">It's no surprise that at the equator, the temperature remains relatively unchanged. Some of the outliers seen for higher temperatures are in fact, some of the deserts in Australia and Africa, where temperatures are consistently 100+ degrees Fahrenheit in the summer months.</p>
+          </div>
+        </div>
+          
+
+
+
+          
+
+      <!-- Scripts used for functionality -->
+      <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+      <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>      
+</body>
+</html>

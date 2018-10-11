@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title>Windspeed</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+      <!-- Bring in our bootstrap stylesheet -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+
+</head>
+
+<body id="background">
+
+      <!-- Navbar -->
+      <nav class="navbar navbar-dark flex-column flex-md-row bg-dark">
+          <a class="navbar-brand" href="landing.html">Home</a>
+          <ul class="nav justify-content-end">
+              <li class="nav-item dropdown">
+                  <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">Plots</a>
+                  <div class="dropdown-menu">
+                    <a class="dropdown-item" href="temperature.html">Temperature</a>
+                    <a class="dropdown-item" href="humidity.html">Humidity</a>
+                    <a class="dropdown-item" href="cloudiness.html">Cloudiness</a>
+                    <a class="dropdown-item" href="windspeed.html">Windspeed</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="data.html">Data</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="comparison.html">Comparison</a>
+              </li>
+            </ul>
+          </nav>
+    
+
+      <!--Jumbotron for the introduction of the webpage  -->
+      <div class="jumbotron jumbotron-fluid jumbotronbg">
+          <div class="container" id="aligncenter">
+            <h1 class="display-4 text-light">Latitude and Wind speed</h1>
+            <p class="lead text-light">The closer you are to the earth's poles, expect higher winds.
+            </p>
+          </div>
+        </div>
+
+      <!-- Section for image and description -->
+      <div class="row">
+        <div class="col-md-1"></div>
+        <div class="col-md-5 bg-light" id="aligncenter">
+          <h5  id="margins">Figure</h5>
+          <a href="#"><img src="https://preview.ibb.co/d8L019/Fig4.png" alt="Fig1" border="0"></a>
+          <p id="margins">Most wind speeds on earth don't go above 10 mph.</p>
+        </div>
+
+        <div class="col-md-1"></div>
+        <div class="col-md-4 bg-light">
+            <h5 id="margins">Summary</h5>
+            <p id="margins">Wind speed is usually a product of atmospheric pressure differences. Geographic location is a very important aspect of how windy a particular place will be. It's difficult to generalize  wind speed for regions that are closer to the equator as mountain ranges can play a big role in generating these pressure differences.</p>
+            <p id="margins">However, as we move further and further from the equator, we see a trend where there are more and more locations with higher average wind speeds. As we move close to the poles, the temperature becomes more predictable and there is a trend toward higher wind speeds in frigid areas of the planet.</p>
+          </div>
+          </div>
+          
+
+      <!-- Scripts used for functionality -->
+      <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+      <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>      
+</body>
+</html>

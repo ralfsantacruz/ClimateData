@@ -1,0 +1,47 @@
+ #brand {
+    font-size: 36px;
+}
+
+#background {
+    background: lightgray;
+}
+
+#header {
+    font-size: 20px;
+    text-align: center;
+}
+
+#margins {
+    padding: 20px;
+}
+
+#columndecor {
+    padding-top: 24px; 
+}
+
+
+#aligncenter {
+    text-align: center
+}
+
+.jumbotronbg {
+    background: lightseagreen
+}
+
+#blockpadding {
+    padding-top:100px;
+}
+
+#paragraphpadding {
+    padding-top: 20px;
+}
+
+.center {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+#test {
+    text-align: inherit
+}
